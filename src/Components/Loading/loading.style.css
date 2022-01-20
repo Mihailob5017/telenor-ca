@@ -1,0 +1,20 @@
+.loading-box {
+	margin: 150px auto;
+	width: 200px;
+	height: 200px;
+	border: 10px solid transparent;
+	border-radius: 50%;
+	border-bottom: 10px solid #af0326;
+	animation-name: rotateBox;
+	animation-duration: 1500ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes rotateBox {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
